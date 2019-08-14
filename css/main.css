@@ -1,3 +1,111 @@
+
 body{
-    font: roboto
+    font-family: "Open Sans", "Adobe Blank";
+    color: #3d5057;
+}
+img{
+    
+    width: 955px;
+    height: 150px;;
+}
+.main-navigation{
+ display: flex;
+ height: 110px;
+ align-items: center;
+
+background: #ffffff;
+
+}
+.box-nav{
+    display: flex;
+    width: 50vw;
+    justify-content: center;
+}
+.logo{
+    display: flex;
+    width: 50vw;
+    justify-content: center;
+    font-size: 36px;
+}
+.box-nav li{
+margin-right: 132px;
+font-size: 18px;
+}
+.description{
+    padding-top: 60px;
+    background: linear-gradient( #4684b3, #96d2ff 41%, #bad5e9, #ffffff)
+
+}
+
+.box{
+    
+}
+ .subtitulo h1{
+font-size: 32px;
+margin-bottom: 24px;  
+}
+.description p{
+    font-size: 24px;
+}
+.subtitulo{
+    margin-left: 242px;
+    margin-right:257px;
+    width: 940px;
+   
+    
+}
+.subtitulo p{
+margin-top: 24px;
+margin-bottom: 24px;  
+}
+button{
+        width: 140px;
+        height: 40px;
+        border-radius: 16px;
+        background-color: #edc64a;
+      }
+.card {
+    width: 1023px;
+    height: 734px;
+    border-radius: 8px;
+    background-color: #f7fcff;
+    align-items: left;
+    margin-top: 62px;
+    padding: 34px;
+    
+      }
+
+.card-wrapper {
+
+    /* width: 100vw; */
+    display: flex;
+    justify-content: left;
+    margin-left: 242px;
+}
+.fotosproyectos {
+    width: 955px;
+    height: 150px;
+    margin: 24px;
+
+}
+.card1{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+.cajas{
+    display: flex;
+    justify-content: center;    
+    flex-direction: row;
+
+}
+.box{
+    padding: 16px;
+    margin: 16px;
+    width: 307px;
+  height: 423px;
+  border-radius: 8px;
+  border: solid 0.5px #3d5057;
+  background-color: #f7fcff;
+  align-content: center;
 }
