@@ -113,7 +113,7 @@ button{
     background-position: center;    
     background-size: cover;    
     background-repeat: no-repeat;     */
-    width: 100%;
+    width: 530px;
     height: 450px;
     margin: 4px;   
 }
@@ -139,23 +139,38 @@ button{
 .box{
     padding: 16px;
     margin: 16px;
-    width: 307px;
-  height: 223px;
+    width: 75%;
+  height: 75%;
   border-radius: 2px;
   border: solid 0.10px #3d5057;
-  background-color: #f7fcff;
+  background-color: #ffffff;
   align-content: center;
   align-items: center;
   text-align: center;
+  font-size: 16%;
+}
+.caja{
+    background:linear-gradient(#e66465, #9198e5);
+    padding: 16px;
+    margin: 16px;
+    width: 75%;
+  height: 75%;
+  border-radius: 2px;
+  border: solid 0.10px #3d5057;
+  background-color: #ffffff;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 16%;
 }
 i{
     margin: 16px;
     font-size: 36px;
-    color: #3d5057
+    color: #EDC64A;
 }
 footer{
     height: 100px;
-    background: #FAFAF7
+    background: #FAFAF7;
 }
 .footy{
     display: flex;
