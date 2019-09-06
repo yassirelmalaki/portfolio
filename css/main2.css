@@ -95,7 +95,7 @@ input, select, textarea {
 		background-position: top left, top left;
 		background-repeat: repeat-x, repeat;
 		background-size: 100% 30em, auto;
-		font-family: 'Open Sans', sans-serif;
+		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 		font-size: 13pt;
 		color: #696969;
 		font-weight: 300;
@@ -114,7 +114,7 @@ input, select, textarea {
 		}
 
 	input, select, textarea {
-		font-family: 'Open Sans', sans-serif;
+		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 		font-size: 13pt;
 		color: #696969;
 		font-weight: 300;
@@ -122,8 +122,9 @@ input, select, textarea {
 	}
 
 	a {
-		color: #e7e7e7;
+		color: #f7f7f7;
 		text-decoration: none;
+		font-weight: 700;
 		
 	}
 
@@ -157,7 +158,11 @@ input, select, textarea {
 		font-weight: 600;
 		color: #444;
 	}
-
+	.titulo {
+		font-size: 30px;
+	 font-weight: 100;
+	 font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+	}
 	i, em {
 		font-style: italic;
 	}
@@ -414,7 +419,7 @@ input, select, textarea {
 			margin-left: -20px;
 	
 				display: flex;
-				flex-direction: column;
+				flex-direction: row;
 		}
 
 			.row.gtr-50 > * {
@@ -1103,8 +1108,16 @@ input, select, textarea {
 					margin-left: 91.66667%;
 				}
 
-				.row > .col-12-medium {
-					width: 100%;
+					.row > .col-12-medium {
+						width: 100%;
+						margin-left: 0;
+						/* padding-top: 20em; */
+						font-size: 0.75em;
+					
+				}
+				#proyectos{
+					display: flex;
+					flex-direction: row; 
 				}
 
 				.row > .off-12-medium {
@@ -1586,6 +1599,12 @@ input, select, textarea {
 			color: #fff;
 		}
 
+		.conoce{
+			text-align: center;
+			padding: 1em;
+			font-size: 22px;
+			
+		}
 /* Image */
 
 		.i {
@@ -1599,7 +1618,8 @@ input, select, textarea {
 		.image img {
 			display: block;
 			width: 100%;
-			border-radius: 8px;
+			border-radius: 6px;
+			
 		}
 
 		.image.fit {
@@ -1947,7 +1967,9 @@ input, select, textarea {
 /* Logo */
 
 	#logo {
-		display: inline-block;
+		/*display: inline-block;*/
+		vertical-align: baseline;
+		text-align: left;
 	}
 
 		#logo h1 {
@@ -1966,6 +1988,8 @@ input, select, textarea {
 
 /* Nav */
 
+	
+
 	#nav {
 		position: absolute;
 		right: 0;
@@ -1974,6 +1998,7 @@ input, select, textarea {
 	}
 
 		#nav ul {
+			padding-right: 0.5em;
 			list-style: none;
 			padding-left: 0;
 		}
@@ -1984,18 +2009,18 @@ input, select, textarea {
 				padding-left: 1.5em;
 			}
 
-				#nav ul li a, #nav ul li span {
+				/*#nav ul li a, #nav ul li span {
 					-moz-transition: background-color .25s ease-in-out;
 					-webkit-transition: background-color .25s ease-in-out;
 					-ms-transition: background-color .25s ease-in-out;
 					transition: background-color .25s ease-in-out;
 					font-weight: 800;
 					letter-spacing: 0.025em;
-					color: #696969;
+					color: #1a1a1a;
 					text-decoration: none;
 					border-radius: 6px;
 					padding: 0.5em 1em 0.5em 1em;
-				}
+				}*/
 
 				#nav ul li > ul {
 					display: none;
@@ -2011,7 +2036,7 @@ input, select, textarea {
 
 				#nav ul li.current a {
 					background: #444;
-					color: #fff;
+					color: #404248;
 				}
 
 	.dropotron {
@@ -2074,7 +2099,11 @@ input, select, textarea {
 				border-right: solid 0.75em transparent;
 				z-index: 1;
 			}
-
+			.navegacion{
+				color: #404248;
+				font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+				font-weight: 400;
+			}
 /* Banner */
 
 	#banner {
@@ -2293,7 +2322,7 @@ input, select, textarea {
 		/* Nav */
 
 			#nav {
-				display: none;
+				display: ;
 			}
 
 		/* Banner */
@@ -2509,10 +2538,11 @@ input, select, textarea {
 			body, input, select, textarea {
 				line-height: 2em;
 			}
-
+			
 			h2, h3, h4, h5, h6 {
 				font-size: 13pt;
 				margin: 0 0 1em 0;
+				font-weight: 400;
 			}
 
 		/* Section/Article */
@@ -2614,6 +2644,10 @@ input, select, textarea {
 							border-bottom-right-radius: 0;
 						}
 
+						.row > .col-7{
+							margin-left: 0%;
+						}
+
 		/* Widgets */
 
 			.widget.thumbnails .image {
@@ -2635,11 +2669,11 @@ input, select, textarea {
 		/* Wrappers */
 
 			#header-wrapper {
-				padding: 3em 0 1.5em 0;
+				padding: 2em 0 1em 0;
 			}
 
 			#banner-wrapper {
-				padding: 0 300px 0 300px;
+				padding: 0;
 								
 			}
 
@@ -2654,8 +2688,10 @@ input, select, textarea {
 		/* Logo */
 
 			#logo h1 {
-				font-size: 2.75em;
-				padding: 0.2em 0.275em;
+				font-size: 24 px;
+				font-weight: 100;
+				text-align: left;
+				padding-right: 0.25em;
 			}
 
 			#logo span {
@@ -2667,22 +2703,25 @@ input, select, textarea {
 			#banner {
 				text-align: center;
 				padding: 15px 15px 15px 15px;
-				margin: 0 auto !important;
+				padding-top: 20em; 
 			}
 
 				#banner h2 {
 					font-size: 2em;
 					margin: 0.75em 0 0.5em 0;
+					text-align: left;
 				}
 
 				#banner p {
-					font-size: 1.5em;
+					font-size: 12px;
+					text-align: left;
 					line-height: 1.5em;
 					margin: 0;
 				}
 
 				#banner ul {
 					margin: 0;
+					padding: 0;
 				}
 
 				#banner .button {
@@ -2707,5 +2746,5 @@ input, select, textarea {
 			#copyright {
 				text-align: left;
 			}
-
+			
 	}
