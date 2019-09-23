@@ -2176,7 +2176,6 @@ display: flex;
 		text-align: center;
 		display: block;
 		margin: auto;
-		padding: ;
 	}
 
 
@@ -2196,12 +2195,12 @@ display: flex;
 			width: 100%;
 			margin-bottom: 0.5em;
 			margin-top: 1em;
-			background: #39649A;
-			border-color: #696969;
+			background: #FFD963;
 			width: 40%;
 			border-radius: 6px;
 			text-align: center;
-			color: #fdfdfd;
+			color: #444444;
+			box-shadow: 8px 8px #205e97;
 			/* text-align: center; */
 			/* padding-left: 16px; */
 			text-decoration: none;
