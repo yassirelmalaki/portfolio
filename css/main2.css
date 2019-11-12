@@ -1596,7 +1596,6 @@ input, select, textarea {
 
 		.conoce{
 			text-align: center;
-			padding: 1em;
 			font-size: 22px;
 			
 		}
@@ -2413,6 +2412,11 @@ display: flex;
 /* Small */
 
 	@media screen and (max-width: 736px) {
+		
+		.navegacion{
+			font-size: 12px;
+			padding: 8px;
+		}
 
 		.aboutme{
 				display: flex;
@@ -2429,6 +2433,7 @@ display: flex;
 				justify-content: center;
 				border-radius: 6px;
 				align-self: center;
+				box-shadow: none;
 				
 			}
 			.fotoyoseccion {
@@ -2450,7 +2455,6 @@ display: flex;
 			
 			h2, h3, h4, h5, h6 {
 				font-size: 13pt;
-				margin: 0 0 1em 0;
 				font-weight: 400;
 			}
 
@@ -2612,7 +2616,7 @@ display: flex;
 			}
 			.titulo {
 
-				font-size: 24px;
+				font-size: 18px;
 			}
 			
 		/* Banner */
