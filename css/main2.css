@@ -143,19 +143,15 @@ input, select, textarea {
 	.titulo {
 			width: 111px;
 			height: 64px;
-			box-shadow: 6px 6px 0 0 #f7cb45;
-			border: solid 1px #f7cb45;
-			background-color: #fbfbfb;
+			
+			
+			
 		  padding: 14px;
 		  font-weight: 100;
 	 font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	}
 	.titulo:hover{
-		border: solid 1px #f7cb45;
-		box-shadow: 6px 6px 0 0 #ffffff;
-		background-color: #fad25a;
-		transition: 0.4s;
-		color: #ffffff;
+		
 		font-weight: 200;
 	}
 	i, em {
@@ -1925,23 +1921,29 @@ display: flex;
 				color: #171717;
 				font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 				font-weight: 600;
-				border: #FFD963;
+				
 				
 					width: 174px;
 					height: 48px;
-					border: solid 1px #f7cb45;
+					
 					background-color: #ffffff;
-					padding: 16px;
+					padding: 8px;
+					margin: 16px;
 					/*  box-shadow: 6px 6px 0 0 #f7cb45;*/
 					
 
 			}
 			/*  */.navegacion:hover{
-				color: white;
+				color: #171717;
 				font-weight: bold;
-				background-color: #f7cb45;
-				transition-duration: 0.3s;
-				box-shadow: 6px 6px 0 0 #ffffff;
+				transition: left 2s;
+				border-bottom: 10px solid #FFD963;
+				text-decoration: none;
+				
+
+				
+				
+			
 			}
 /* Banner */
 
