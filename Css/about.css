@@ -16,7 +16,7 @@ body {
   h6{
     font-family: martel, 'Times New Roman', Times, serif;
     font-size: 24px;
-    font-weight: 300;
+    font-weight: 700;
     color: #1953AA;
     margin: 8px;
     line-height: 40px;
@@ -85,7 +85,7 @@ a {
     background-size: 30px 20px;
     background-color: #1953aa;
     box-shadow: #1953AA;
-    color: #000002;
+    color: #FFFFFD;
     transition-duration: 0.4ms;
 }
 .main{
@@ -134,14 +134,13 @@ a {
   }
   .footito:hover{
     background-size: 30px 20px;
-    background-color: rgb(253, 253, 253);
-    box-shadow: 0 2px 0 0 #1953aa;
-    /* color: #FFFFFD; */
-    transition-duration: 0.4ms;
-}
+      background-color: rgb(253, 253, 253);
+      box-shadow: 0 2px 0 0 #1953aa;
+      /* color: #FFFFFD; */
+      transition-duration: 0.4ms;
+  }
 
   .image.photo-one {
-    
     position: absolute;
     top: 30px;
     left: 520px;
