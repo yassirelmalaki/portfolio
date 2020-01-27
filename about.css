@@ -1,0 +1,263 @@
+body {
+  background-color: #fdfdfd;
+  background-position: top left, top left;
+  background-repeat: repeat-x, repeat;
+  background-size: 100% 30em, auto;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+  color: #000009;
+  font-weight: 300;
+  line-height: 2.25em;
+  margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+  h6{
+    font-family: martel, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: 300;
+    color: #1953AA;
+    margin: 8px;
+    line-height: 40px;
+
+  }
+  p{
+    margin: 8px;
+    margin: 8px;
+    font-size: 16px;
+  }
+
+  #nav {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 0.9em;
+    color: #171717;
+      
+}
+.nav-name{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #000000;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-right:8%;
+    margin-left: 8%;
+  }
+  .nav-menu{
+    display: flex;
+    align-items: center;
+  }
+  .nav-language{
+    margin: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: ;
+  }
+ 
+  .nav-name:hover{
+		font-weight: 400; 
+		color: #000002;
+	} 
+	
+
+
+a {
+    color: #000002;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.linkdea:hover{
+  font-weight: 900;
+    font-size: 16px;
+    line-height: 19px;
+    background-size: 30px 20px;
+    background-color: #1953aa;
+    box-shadow: #1953AA;
+    color: #000002;
+    transition-duration: 0.4ms;
+}
+.main{
+  margin-left: 8%;
+    margin-right: 8%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  position: relative;
+}
+
+.that-was-me {
+  font-weight: 400;
+}
+
+.highlight {
+  font-weight: 400;
+  background-color: #FFFEA4;
+}
+
+
+.highlight-photo-one {
+
+}
+  
+  .footernuevo{
+    justify-content: center;
+    margin-left: 0;
+    background-color: #f5f5f5;
+    width: 100% text-align: center;
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    background-color: #fdfdfd;}
+
+    .footito{
+      background-color: transparent;
+      height: 20px;
+      font-weight: 100;
+      font-size: 16px;
+      line-height: 19px;
+      color: #000000;
+      padding-top: 0px;
+      padding-bottom: 0px;
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+  .footito:hover{
+    background-size: 30px 20px;
+    background-color: rgb(253, 253, 253);
+    box-shadow: 0 2px 0 0 #1953aa;
+    /* color: #FFFFFD; */
+    transition-duration: 0.4ms;
+}
+
+  .image.photo-one {
+    
+    position: absolute;
+    top: 30px;
+    left: 520px;
+    z-index: 1;
+    display: none;
+  }
+
+
+  .image.photo-two {
+   
+    position: absolute;
+    top: -200px;
+    left: 200px;
+    z-index: 1;
+    display: none;
+  }
+
+  .image.photo-three {
+   
+    position: absolute;
+    top: -200px;
+    left: 120px;
+    z-index: 1;
+    display: none;
+  }
+
+  .image.photo-four {
+  
+    position: absolute;
+    top: 30px;
+    left: 520px;
+    z-index: 1;
+    display: none;
+  }
+
+  .image.photo-five {
+  
+    position: absolute;
+    top: 30px;
+    left: 520px;
+    z-index: 1;
+    display: none;
+  }
+
+  .image.photo-six {
+ 
+    position: absolute;
+    top: 30px;
+    left: 520px;
+    z-index: 1;
+    display: none;
+  }
+
+  .image.photo-seven {
+ 
+    position: absolute;
+    top: 30px;
+    left: 520px;
+    z-index: 1;
+    display: none;
+  }
+
+  .image.photo-eight {
+ 
+    position: absolute;
+    top: 30px;
+    left: 520px;
+    z-index: 1;
+    display: none;
+  }
+
+  .active {
+    display: block !important;
+  }
+
+  .nav-name:hover{
+		font-weight: 600; 
+		color: #000002;
+	} 
+
+  
+
+
+  @media screen and (max-width: 736px){
+
+
+    .nav-language{
+      margin: 14px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 19px;
+      color: ;
+    }
+h6{
+  padding-bottom: 16px;
+}
+.footito{
+  background-color: transparent;
+  height: 20px;
+  font-weight: 100;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.main {
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-bottom: 20%;
+  margin-top: 5%;
+  position: relative;
+  }
+
+  
