@@ -141,6 +141,8 @@ a {
   }
 
   .image.photo-one {
+    height: 300px;
+    width: 300px;
     position: absolute;
     top: 30px;
     left: 520px;
@@ -150,7 +152,8 @@ a {
 
 
   .image.photo-two {
-   
+    height: 300px;
+    width: 300px;
     position: absolute;
     top: -200px;
     left: 200px;
@@ -159,7 +162,8 @@ a {
   }
 
   .image.photo-three {
-   
+    height: 300px;
+    width: 300px;
     position: absolute;
     top: -200px;
     left: 120px;
@@ -168,7 +172,8 @@ a {
   }
 
   .image.photo-four {
-  
+    height: 300px;
+    width: 300px;
     position: absolute;
     top: 30px;
     left: 520px;
@@ -177,7 +182,8 @@ a {
   }
 
   .image.photo-five {
-  
+    height: 300px;
+    width: 300px;
     position: absolute;
     top: 30px;
     left: 520px;
@@ -186,7 +192,8 @@ a {
   }
 
   .image.photo-six {
- 
+    height: 300px;
+    width: 300px;
     position: absolute;
     top: 30px;
     left: 520px;
@@ -198,9 +205,11 @@ a {
  
     position: absolute;
     top: 30px;
-    left: 520px;
+    left: 160px;
     z-index: 1;
     display: none;
+    height: 300px;
+    width: 300px;
   }
 
   .image.photo-eight {
@@ -210,6 +219,8 @@ a {
     left: 520px;
     z-index: 1;
     display: none;
+    height: 300px;
+    width: 300px;
   }
 
   .active {
@@ -224,18 +235,29 @@ a {
   
 
 
-  @media screen and (max-width: 736px){
+  @media only screen and (max-width: 600px) {
 
-
-    .nav-language{
-      margin: 14px;
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 14px;
-      line-height: 19px;
-      color: ;
-    }
+		nav {
+			display: flex;
+			justify-content: space-between;
+			margin-right: 16px;
+    margin-left: 16px;
+    margin-top: 24px;
+    margin-bottom: 24px
+		}
+		.nav-menu{
+			font-weight: 400;
+    font-size: 17px;
+		}
+		.nav-language {
+			margin: 8px;
+			/* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+			font-style: normal;
+			font-weight: normal;
+			font-size: 12px;
+			line-height: 19px;
+			font-weight: 200;
+		}
 h6{
   padding-bottom: 16px;
 }
@@ -248,8 +270,8 @@ h6{
   color: #000000;
   padding-top: 0px;
   padding-bottom: 0px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .main {
   margin-left: 8%;
@@ -258,5 +280,5 @@ h6{
   margin-top: 5%;
   position: relative;
   }
-
+  }
   
