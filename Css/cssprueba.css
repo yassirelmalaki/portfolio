@@ -566,12 +566,20 @@ h4{
 	.imagenmobile{
 		display: none;
 	}
+	.imgphone{
+    display: none;
+
+	}
 
 	@media only screen and (max-width: 600px) {
 
 		img{
 			display: none;
 		}
+		.imgphone{
+			display: block;
+		
+			}
 		nav {
 			display: flex;
 			justify-content: space-between;
@@ -705,7 +713,7 @@ h4{
 			
 			align-items: start;
 			width: 90%;
-			height: 90vh;
+			height: 100%;
 			background: #FFFFFD;
 			box-shadow: 2px 2px 16px rgba(31, 31, 31, 0.08);
 		
@@ -759,6 +767,24 @@ h4{
 			padding-left: 10px;
 			padding-right: 10px;
 		}
+		.envoltoriocajitas{
+			flex-direction: column;
+			margin-bottom: 32px;
+		}
+		.cajadeinformacion{
+		margin-bottom: 8px;
+		text-align: center;
+		width: 100%;
+		}
+		.imagenshow{
+			display: block;
+			width: 100px;
+		}
+		.imgphone{
+			display: flex;
+			justify-content: center;
+			margin-top: 24px;
 
+		}
 
 	  }
