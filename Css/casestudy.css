@@ -82,16 +82,25 @@ body {
 	  width: 100%;
   }
   .seccionprimera{
-	  display: flex;
-	  flex-direction: column;
-	  justify-content: center;
-	  justify-items: center;
-	  align-content: center;
-	  align-items: center; 
+	  max-width: 680px;
+	  margin-right: auto;
+	  margin-left: auto;
+	  margin-bottom: 5%;
+	margin-top: 5%;
+	  
+  }
+
+  .titulos{
+	margin-bottom: 16px;
+    margin-top: 16px;
+    padding-bottom: 8px;
+    padding-top: 8px;
   }
   .contenedor{
 	  display: flex;
-	  flex-direction: row;
+	  flex-direction: column;
+	  max-width: 1100px;
+
   }
  
   
@@ -111,6 +120,41 @@ body {
 	margin-bottom: 5%;
 	margin-top: 5%;
 	position: relative;
+  }
+  h1{
+	font-size: 40px;
+	font-family: Martel, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-weight: 600;
+	margin-bottom: 8px;
+	margin-top: 8px;
+  }
+  h3{
+	margin-bottom: 8px;
+	margin-top: 8px;
+	font-weight: 600;
+	font-family: Martel, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	color: #3D3D3D;
+  }
+  h2{
+	font-size: 24px;
+	margin-bottom: 8px;
+	margin-top: 8px;
+	font-weight: 600;
+	font-family: Martel, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	color: #3D3D3D;
+
+  }
+  p{
+	  margin: 0;
+	  line-height: 28px;
+	  font-size: 18px;
+	  font-family:  Roboto light;
+	  font-weight: 400;
+	  width: 100%;
+		margin-top: 8px;
+		margin-bottom: 8px;
+		color: #464646;
+
   }
   
   .that-was-me {
@@ -157,92 +201,7 @@ body {
 		transition-duration: 0.4ms;
 	}
   
-	.image.photo-one {
-	  height: 300px;
-	  width: 300px;
-	  position: absolute;
-	  top: 30px;
-	  left: 520px;
-	  z-index: 1;
-	  display: none;
-	}
-  
-  
-	.image.photo-two {
-	  height: 300px;
-	  width: 300px;
-	  position: absolute;
-	  top: -200px;
-	  left: 200px;
-	  z-index: 1;
-	  display: none;
-	}
-  
-	.image.photo-three {
-	  height: 300px;
-	  width: 300px;
-	  position: absolute;
-	  top: -200px;
-	  left: 120px;
-	  z-index: 1;
-	  display: none;
-	}
-  
-	.image.photo-four {
-	  height: 300px;
-	  width: 300px;
-	  position: absolute;
-	  top: 30px;
-	  left: 520px;
-	  z-index: 1;
-	  display: none;
-	}
-  
-	.image.photo-five {
-	  height: 300px;
-	  width: 300px;
-	  position: absolute;
-	  top: 30px;
-	  left: 520px;
-	  z-index: 1;
-	  display: none;
-	}
-  
-	.image.photo-six {
-	  height: 300px;
-	  width: 300px;
-	  position: absolute;
-	  top: 30px;
-	  left: 520px;
-	  z-index: 1;
-	  display: none;
-	}
-  
-	.image.photo-seven {
-   
-	  position: absolute;
-	  top: 30px;
-	  left: 160px;
-	  z-index: 1;
-	  display: none;
-	  height: 300px;
-	  width: 300px;
-	}
-  
-	.image.photo-eight {
-   
-	  position: absolute;
-	  top: 30px;
-	  left: 520px;
-	  z-index: 1;
-	  display: none;
-	  height: 300px;
-	  width: 300px;
-	}
-  
-	.active {
-	  display: block !important;
-	}
+
   
 	.nav-name:hover{
 		  font-weight: 600; 
@@ -251,20 +210,31 @@ body {
   
 	
 	.hero{
-		width: 90%;
-		height: 40%;
-  
+		width: 100%;
+		margin-bottom: 8px;
+		margin-top: 8px;
 	}
 	section{
 
 	}
 	.texto{
-		width: 50%
+		margin-top: 8px;
+		margin-bottom: 8px;
+		padding: 8px;
 	}
 	.foto-derecha{
-		width: 50%;
-		height: 500px;
+		width: 100%;
 	}
+	.fotos_soporte{
+		padding: 42px;
+		max-width: 230px;
+		margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+
 
 	@media only screen and (max-width: 600px) {
   

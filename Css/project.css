@@ -178,8 +178,10 @@ span{
   } 
 
 h1{
-  font-size: 60px;
-  margin-top: 40px;
+  font-size: 40px;
+  font-family: martel, 'Times New Roman', Times, serif;
+  font-weight: 600;
+}
 }
 
   h2{
