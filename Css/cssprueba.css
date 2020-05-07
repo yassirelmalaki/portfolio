@@ -281,7 +281,7 @@ input, select, textarea {
     margin-top: 3em;
 }
 .nuevotitulo{
-    width: 547px;
+    width: 600px;
 height: ;
 left: 116px;
 top: 232px;
@@ -298,13 +298,11 @@ color: #000000;
 .mifrase{
     width: 547px;
 height: 128px;
-left: 116px;
-top: 387px;
 
 font-family: Martel;
 font-style: normal;
 font-weight: 100;
-font-size: 24px;
+font-size: 20px;
 line-height: 40px;
 
 color: #000000;
@@ -404,15 +402,11 @@ box-shadow: ;
     font-size: 46px;
     line-height: 54px;
     color: #0a0a0a;
-    margin: 0 0 24px 0;
-
+    margin: 0 0 16px 0;
 }
-.subtitulocaja{
-    left: 15.83%;
-right: 53.06%;
-top: 22.66%;
-bottom: 76.68%;
 
+.subtitulocaja{
+	margin: 0 0 8px 0;
 font-family: Martel;
 font-style: normal;
 font-weight: 300;
@@ -434,7 +428,8 @@ margin-bottom: 0px;
 .envoltorio{
     display: flex;
     flex-direction: column;
-    padding: 40px;
+	padding: 40px;
+	margin-left: 24px;
 }
 .envoltoriocajitas{
     display: flex;
